@@ -1,5 +1,12 @@
 # Module-Packaging
 
+## Overview
+
+```py
+This is just some practice on creating modules and packaging. I published it on Test Pypi.
+```
+
+
 ## Instalation
 
 ```py
@@ -14,7 +21,6 @@ from module_test.my_mod import split_date
 
 print(split_date('7-feb-2020'))
 ```
-
 
 ```py
 Use the list to column function
