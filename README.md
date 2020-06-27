@@ -2,7 +2,7 @@
 
 ## Overview
 
-"This is just some practice on creating modules and packaging. I published it on Test Pypi."
+This is just some practice on creating modules and packaging. I published it on Test Pypi.
 
 
 ## Instalation
