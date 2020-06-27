@@ -2,15 +2,13 @@
 
 ## Overview
 
-```py
-This is just some practice on creating modules and packaging. I published it on Test Pypi.
-```
+"This is just some practice on creating modules and packaging. I published it on Test Pypi."
 
 
 ## Instalation
 
 ```py
-pip install _________
+pip install -i https://test.pypi.org/simple/ module-armando
 ```
 
 ## Usage
