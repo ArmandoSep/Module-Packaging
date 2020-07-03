@@ -10,7 +10,6 @@ from module_test.new_feature import add_state_names_column
 class TestNewFeature(unittest.TestCase):
 
     def test_add_state_names(self):
-        # self.assertEqual(split_date('12/feb/2020'), pd.DataFrame([d]))
 
         df = DataFrame({"abbrev": ['CA', 'CO', 'CT', 'DC', 'TX']})
         # ensure our test is setup properly
