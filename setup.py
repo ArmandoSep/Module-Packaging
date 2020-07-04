@@ -16,5 +16,5 @@ setup(
     #license="MIT",
     url="https://github.com/ArmandoSep/Module-Packaging",
     #keywords="",
-    packages=find_packages() # ["module_test"]
+    packages=["module_test"] #find_packages() # ["module_test"]
 )

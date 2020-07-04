@@ -3,12 +3,16 @@ import pandas as pd
 
 
 def split_date(X):
-  df = pd.DataFrame({'Date': [X]})
-  df['Date'] = pd.to_datetime(X, infer_datetime_format=True)
-  df['Day'] = df['Date'].dt.day
-  df['Month'] = df['Date'].dt.month
-  df['Year'] = df['Date'].dt.year
-  return df
+  """
+  This function will split the date from any format into day, month and year organized in columns.
+  
+  The function expects a DataFrame with a single column named 'Date'.
+  """
+  X['Date'] = pd.to_datetime(X['Date'], infer_datetime_format=True)
+  X['Day'] = X['Date'].dt.day
+  X['Month'] = X['Date'].dt.month
+  X['Year'] = X['Date'].dt.year
+  return X
 
 
 if __name__ == "__main__":
@@ -16,7 +20,8 @@ if __name__ == "__main__":
     # not if it is imported from another script
     print('Please enter the date')
     X = input()
-    split_date(X)
+    df = pd.DataFrame({'Date': [X]})
+    split_date(df)
 
 
 # Second helper function

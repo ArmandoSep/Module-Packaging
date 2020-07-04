@@ -1,5 +1,5 @@
 
-# Write some code using unittest to test our split_date() function works as desired
+# Write some code using unittest to test our add_state_names_column() function works as desired
 
 
 import unittest
