@@ -38,11 +38,11 @@ if __name__ == "__main__":
     # mapped_df = add_state_names_column(df)
     # print(mapped_df.head())
 
-processor = DataFrameProcessor(df=df)
-print(processor.df.head())
-processor.add_state_names_column()
-print(processor.df.head())
+    processor = DataFrameProcessor(df=df)
+    print(processor.df.head())
+    processor.add_state_names_column()
+    print(processor.df.head())
 
-# If I want to return the transformed copy
-# new_df = processor.add_state_names_column()
-# print(new_df.head())
+    # If I want to return the transformed copy
+    # new_df = processor.add_state_names_column()
+    # print(new_df.head())
